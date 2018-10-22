@@ -1,7 +1,7 @@
 package com.yin.design.base;
 
 /**
- * @author lijian.yin@hand-china.com
+ * @author lijian.yin@foxmail.com
  * @date 2018/10/22
  */
 public class Dog implements Animal {

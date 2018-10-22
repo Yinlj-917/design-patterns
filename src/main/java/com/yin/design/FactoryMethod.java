@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
 /**
  * 创建型模式 - 工厂模式.
  *
- * @author lijian.yin@hand-china.com
+ * @author lijian.yin@foxmail.com
  * @date 2018/10/22
  */
 public class FactoryMethod {
