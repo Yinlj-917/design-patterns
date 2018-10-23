@@ -6,6 +6,7 @@ package com.yin.design.base;
  */
 public class Dog implements Animal {
 
+    @Override
     public void say() {
         System.out.println("汪汪");
     }

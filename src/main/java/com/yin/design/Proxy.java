@@ -1,38 +1,29 @@
 package com.yin.design;
 
+import com.yin.design.base.Animal;
+import com.yin.design.base.Dog;
+
 /**
  * 结构型模式 - 代理模式
  *
  * @author lijian.yin@foxmail.com
  * @date 2018/10/23
  */
-public class Proxy implements Sourceable {
+public class Proxy implements Animal {
 
-    private Source source;
+    private Dog dog;
 
-    public Proxy(Source source) {
-        this.source = source;
+    public Proxy(Dog dog) {
+        this.dog = dog;
     }
 
     @Override
     public void say() {
-        this.source.say();
+        this.dog.say();
     }
 
     public static void main(String[] args) {
-        Proxy proxy = new Proxy(new Source());
+        Proxy proxy = new Proxy(new Dog());
         proxy.say();
     }
 }
-
-interface Sourceable {
-    void say();
-}
-
-class Source implements Sourceable {
-    @Override
-    public void say() {
-        System.out.println("---------- say ---------");
-    }
-}
-
