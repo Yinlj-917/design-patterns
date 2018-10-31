@@ -9,7 +9,7 @@ import java.io.*;
  *
  *  其实就是通过序列化进行深复制（彻底复制）
  *
- * @author lijian.yin@hand-china.com
+ * @author lijian.yin@foxmail.com
  * @date 2018/10/22
  */
 public class Prototype implements Cloneable, Serializable {

@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 行为性模式 - 模板模式
  *
- * @author lijian.yin@hand-china.com
+ * @author lijian.yin@foxmail.com
  * @date 2018/10/28
  */
 public abstract class Template {

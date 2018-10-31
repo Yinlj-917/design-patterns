@@ -8,7 +8,7 @@ import java.util.Vector;
 /**
  *  结构型模式 - 组合模式
  *
- * @author lijian.yin@hand-china.com
+ * @author lijian.yin@foxmail.com
  * @date 2018/10/27
  */
 public class Composite {

@@ -5,7 +5,7 @@ package com.yin.design;
  *
  *  实现对象的共享
  *
- * @author lijian.yin@hand-china.com
+ * @author lijian.yin@foxmail.com
  * @date 2018/10/28
  */
 public class Flyweight {
